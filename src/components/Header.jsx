@@ -25,7 +25,7 @@ const Header = () => {
   const logOutFunc = () => {
     signOut();
     setToken(false);
-    localStorage.removeItem("token");
+    localStorage.removeItem("token_IC");
     localStorage.removeItem("password");
     navigate("/");
   };
